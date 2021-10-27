@@ -4,6 +4,7 @@ const router = require("express").Router();
 
 router.get("/notes", (req, res) => {
     let results = notes;
+    console.log("testing123", results);
     res.json(results);
 });
 
