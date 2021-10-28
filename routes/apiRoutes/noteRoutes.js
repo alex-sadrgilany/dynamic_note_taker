@@ -1,10 +1,9 @@
-const { createNewNote, findNoteById, validateNote } = require("../../lib/notes");
+const { createNewNote, findNoteById, validateNote, deleteNote } = require("../../lib/notes");
 const { notes } = require("../../data/notes.json");
 const router = require("express").Router();
 
 router.get("/notes", (req, res) => {
     let results = notes;
-    console.log("testing123", results);
     res.json(results);
 });
 
@@ -29,5 +28,13 @@ router.post("/notes", (req, res) => {
         res.json(note);
     }
 });
+
+// router.delete("/notes/:id", (req, res) => {
+//     const newArr = deleteNote(req.params.id, notes);
+    
+//     for (i = 0; i < newArr.length; i++) {
+//         createNewNote(r, notes);
+//     };
+// });
 
 module.exports = router;
