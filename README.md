@@ -8,7 +8,7 @@ This project serves as an easy to use Note Taker application. It utilizes Expres
 
 Any user can create notes through the deployed webpage application, the notes will be saved and persisted. When a user clicks a note, the text details will be displayed in the main note section. A user can also opt to delete a note if they're finished with it.
 
-Deployed Application:
+Deployed Application: https://dynamic-note-taker.herokuapp.com/
 
 
 ## Table of Contents
@@ -22,6 +22,16 @@ Deployed Application:
 
 ## Screenshots
 
+Landing Page
+
+![Website Landing Page](./assets/images/landingpage_screenshot.PNG)
+
+Saved Notes Displayed
+
+![Displayed Notes](./assets/images/notes_screenshot.PNG)
+
+Save A New Note
+![Save Note](./assets/images/savenote_screenshot.PNG)
 
 ## Installation
 
@@ -38,6 +48,8 @@ In order to use this project, be sure you are at the root of the project in your
 ```
 npm start
 ```
+
+Then navigate to the localhost port that is shown in your terminal through your browser. It should be "localhost:3001"
 
 ## License
 
