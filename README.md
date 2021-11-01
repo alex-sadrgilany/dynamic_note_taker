@@ -31,6 +31,7 @@ Saved Notes Displayed
 ![Displayed Notes](./assets/images/notes_screenshot.PNG)
 
 Save A New Note
+
 ![Save Note](./assets/images/savenote_screenshot.PNG)
 
 ## Installation
